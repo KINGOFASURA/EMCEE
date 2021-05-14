@@ -14,7 +14,7 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Chat, Message, User
 
 from MashaRoBot import OWNER_ID, SUPPORT_CHAT
-from MashaRoBot.services.pyrogram import pbot
+from MashaRoBot import pbot
 
 
 def get_user(message: Message, text: str) -> [int, str, None]:
